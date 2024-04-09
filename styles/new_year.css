@@ -1,5 +1,6 @@
 body {
-    font-family: "Merriweather";
+    font-family: "Merriweather Sans", sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
 .header {
@@ -118,7 +119,7 @@ body {
     position: absolute;
     width: 697px;
     height: 60px;
-    margin: 346px 497px 214px 126px;
+    margin: 326px 497px 214px 126px;
     color: gold;
     font-size: 20px;
     font-weight: 500;
@@ -131,7 +132,7 @@ body {
     position: absolute;
     width: 103px;
     height: 24px;
-    margin: 464px 1059px 142px 158px;
+    margin: 484px 1059px 142px 158px;
     color: gold;
     font-size: 20px;
     font-weight: 700;
@@ -256,7 +257,7 @@ body {
     font-weight: 400;
     line-height: 32px;
     letter-spacing: 0%;
-    text-align: left;
+    text-align:left;
 }
 
 .offer-image {
@@ -328,7 +329,6 @@ body {
     background: #9fe4cf;
 }
 
-.offer-title:hover,
 .offer-description:hover,
 .offer-text-description:hover,
 .portfolio-container:hover .portfolio-description,
