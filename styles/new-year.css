@@ -51,9 +51,9 @@ body {
     font-family: Merriweather;
     font-size: 72px;
     font-weight: 900;
-    margin-left: 40px;
     max-width: 90%;
     margin-top: -20px;
+    margin-left: 40px;
     text-align: center;
 }
 
@@ -1035,35 +1035,24 @@ footer {
 
     .offer-item {
         margin: 50px 25px 0;
-        color: rgb(255, 0, 0);
-        font-family: Inter;
         font-size: 20px;
-        font-weight: 500;
-        text-align: left;
-        white-space: nowrap;
-        text-transform: uppercase;
+        text-align: center;
     }
     
     .offer-title {
-        color: rgb(7, 2, 17);
-        margin: 15px 25px 10px;
-        font-family: Merriweather;
+        margin: 15px 10px 10px;
         font-size: 40px;
         font-weight: 700;
-        text-align: left;
+        text-align: center;
         white-space: nowrap;
-        text-transform: capitalize;
     }
     
     .offer-description {
-        color: rgba(7, 2, 17, 0.6);
-        font-family: Inter;
-        font-size: 16px;
-        font-weight: 400;
+        font-size: 18px;
         line-height: 26px;
-        text-align: left;
-        max-width: 80%;
-        margin-left: 25px;
+        text-align: center;
+        max-width: 90%;
+        margin-left: 10px;
     }
     
     .offer-image {
@@ -1071,34 +1060,24 @@ footer {
         height: 250px;
         margin: 20px 0;
         padding: 20px;
-        justify-content: left;
        
     }
     
     .offer-text {
         margin: 20px 40px 0;
-        color: rgb(255, 0, 0);
-        font-family: Inter;
-        font-size: 48px;
-        font-weight: 700;
-        text-align: left;
+        text-align: center;
     }
     
     .offer-text-description {
-        max-width: 80%;
-        margin: 20px 0 10px 40px;
-        color: rgba(7, 2, 17, 0.6);
-        font-family: Inter;
-        font-size: 20px;
-        font-weight: 400;
-        line-height: 32px;
-        text-align: left;
+        max-width: 100%;
+        margin: 20px 0 10px 20px;
+        text-align: center;
     }
     
     .offer-image2 {
         width: 140px;
         height: 140px;
-        margin: 20px 0px 20px 40px;
+        margin: 20px 0px 20px 60px;
     }
     
     .holiday-container {
@@ -1378,20 +1357,372 @@ footer {
     .unsubscribe {
         margin: 20px 0px 50px 0px;
         text-align: left;
-    }
-    
-    .address:hover,
-    .contact ul:hover,
-    .copyright:hover,
-    .unsubscribe:hover {
-        color: #12e2e9;
-        transform: scale(1.1);
-        transition: color 0.5s ease-in-out, transform 0.3s ease-in-out;
-    }
-    
-    .social-links a:hover {
-        transform: scale(1.2);
-        transition: transform 0.3s ease-in-out;
-    }
+    }  
       
+}
+
+@media screen and (min-width:601px) and (max-width:991px) {
+    .header {
+        width: 100%;
+        max-width: 500px;
+        height: 500px;
+    }
+
+    .banner-greeting {
+        font-size: 28px;
+        margin: -10px 0 0 10px;
+
+    }
+
+    .banner-title {
+        font-size: 52px;
+        max-width: 80%;
+        margin: 0px 0 0 40px;
+    }
+
+    .section-title {
+        margin: 50px 0px 20px 0px;
+        font-size: 70px;
+    }
+
+    .section-description {
+        margin: 30px 0px 20px 0px;
+        font-size: 20px;
+    }
+
+    .category {
+        margin: 10px 0px 60px 0px;
+        font-size: 40px;
+    }
+
+    .new-year-image img {
+        width: 100%;
+        max-width: 400px;
+        height: 250px;
+        margin: 20px 20px 120px 0px;
+    }
+
+    .mid-night-image {
+        width: 100%;
+        max-width: 500px;
+        height: 500px;
+    }
+
+    .midnight-greeting,
+    .midnight-text,
+    .join {
+        margin-left: 5%;
+    }
+
+    .midnight-greeting {
+        margin-top: 40%;
+        color: gold;
+        font-family: Merriweather;
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    .midnight-text {
+        color: rgba(255, 255, 255, 0.8);
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+        text-align: left;
+        max-width: 70%;
+        margin-top: 0px;
+    }
+
+    .join {
+        cursor: pointer;
+        margin-top: 10px;
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 700;
+        text-align: center;
+        white-space: nowrap;
+        text-transform: uppercase;
+    }
+
+    .top-image {
+        position: absolute;
+        width: 150px;
+        height: 180px;
+        margin: -180px 0px 70px 20px;
+    }
+
+    .section-description:hover,
+    .banner-title:hover,
+    .banner-greeting:hover,
+    .category:hover,
+    .join:hover {
+        transform: scale(1.1);
+    }
+
+    .schedule {
+        width: 100%;
+        max-width: 500px;
+        height: 400px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .schedule-description {
+        margin: 80px auto 30px;
+        max-width: 100%;
+        font-size: 24px;
+        line-height: 42px;
+    }
+
+    .schedule-description:hover {
+        transform: scale(1.1);
+    }
+
+    .offer-container {
+        width: 100%;
+        max-width: 500px;
+        height: 100%;
+        margin: 50px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+    }
+
+    .offer-item {
+        margin: 50px 40px 0;
+        text-align: center;
+    }
+    
+    .offer-title {
+        margin: 15px 40px 10px;
+        text-align: center;
+    }
+    
+    .offer-description {
+        max-width: 80%;
+        margin-left: 50px;
+        text-align: center;
+    }
+    
+    .offer-image {
+        margin: 20px 40px;
+    }
+    
+    .offer-text {
+        margin: 20px 50px 0;
+        text-align: center;
+    }
+    
+    .offer-text-description {
+        max-width: 70%;
+        margin: 20px 0 10px 70px;
+        text-align: center;
+    }
+    
+    .offer-image2 {
+        width: 140px;
+        height: 140px;
+        margin: 20px 0px 20px 150px;
+    }
+    
+    .holiday-container {
+        width: 100%;
+        max-width: 500px;
+        height: 100%;
+        margin: 50px auto 20px;
+    }
+    
+    .holiday-item {
+        margin: 20px 0px 10px;
+        font-size: 24px;
+        text-align: center;
+    }
+    
+    .holiday-title {
+        margin: 20px 0px 10px 0px;
+        /* font-family: Merriweather; */
+        font-size: 52px;
+        text-align: center;
+    }
+    
+    .holiday-description {
+        max-width: 90%;
+        margin: 30px 20px 0px;
+        color: rgba(7, 2, 17, 0.6);
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 28px;
+        text-align: center;
+    }
+    
+    .holiday-item:hover,
+    .holiday-description:hover {
+        transform: scale(1.1);
+    }
+    
+    .rectangle-2 {
+        max-width: 500px;
+        height: 200px;
+        margin: 670px auto 120px;
+    }
+
+    .rectangle-1 {
+        width: 350px;
+        height: 350px;
+        margin: -750px 0px 600px 110px;
+    }
+    
+    .group-44 {
+        width: 250px;
+        height: 250px;
+        margin: -700px 0px 430px -20px;
+    }
+
+    .group-44:hover {
+        transform: scale(1.1);
+    }
+    
+    .group-75 {
+        width: 400px;
+        height: 350px;
+        margin: -230px 550px 0px 0px;
+    }
+    
+    .portfolio-container {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .portfolio-text {
+       text-align: left; 
+       margin-left: 20px;
+
+    }
+    
+    .portfolio-item {
+        margin: 20px 0px 10px 10px;
+    }
+    
+    .portfolio-title {
+        margin: 10px 0px 10px 10px;
+        font-size: 44px;
+    }
+    
+    .portfolio-description {
+        margin: 10px 0px 50px 10px;
+        max-width: 80%;
+    }
+    
+    .portfolio-images {
+        margin-left: 25px;
+        justify-content: left;
+        align-items: left;
+    }
+    
+    .row {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .text button {
+        margin-left: 0px;
+    }
+    
+    .newsletter-container {
+        width: 100%;
+        max-width: 500px;
+        /* height: 620px; */
+    }
+    
+    .newsletter-container img {
+        margin: 20px 20px 10px;
+    }
+    
+    .newsletter-container p {
+        font-size: 18px;
+        line-height: 26px;
+        margin: 10px 20px;
+        max-width: 80%;
+    }
+    
+    .newsletter-container h2:hover,
+    .newsletter-container p:hover {
+        transform: scale(1.0);
+    }
+    
+    .newsletter-container form {
+        margin-top: 20px;
+    }
+    
+    .newsletter-container input[type="email"] {
+        width: 400px;
+        margin-left: -20px;
+    }
+
+    .newsletter-container input[type="submit"] {
+        width: 150px;
+        height: 70px;
+    }
+    
+    .footer-content {
+        max-width: 900px;
+        padding-left: 10px;
+    }
+    
+    .footer-text1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        margin-right: 0px;
+    }
+    
+    .address {
+        margin: 50px 0px 0px 65px;
+    }
+    
+    .contact ul {
+        margin: 10px 170px 50px 10px;
+        text-align: left;
+    }
+    
+    .contact li {
+        margin: 20px 0px -60px 0px;
+    }
+    
+    .contact li:nth-child(2) {
+        margin-left: 20px;
+    }
+    
+    .line1,
+    .line2 {
+        width: 500px;
+        margin: 20px 0px 20px 0px;
+        padding-right: 10px;
+    }
+    
+    .social-links {
+        margin: 20px 0px;
+    }
+    
+    .footer-text2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        margin-right: 0px;
+        margin-left: 50px;
+    }
+    
+    .copyright {
+        margin: 20px 95px 20px 0px;
+    }
+    
+    .unsubscribe {
+        margin: 20px 0px 50px 0px;
+        text-align: left;
+    }
+
 }
